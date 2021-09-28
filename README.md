@@ -22,13 +22,13 @@ git checkout tags/terragrunt -b master
 ```bash
 # development
 cd environments/dev
-terraform init
-terraform apply
+# You only need to do terragrunt apply as it will automatically initialise the project
+terragrunt apply 
 
 # development
 cd environments/prod
-terraform init
-terraform apply
+# You only need to do terragrunt apply as it will automatically initialise the project
+terragrunt apply 
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

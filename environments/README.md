@@ -4,8 +4,8 @@
 
 ```bash
 cd dev
-terraform init
-terraform apply
+# You only need to do terragrunt apply as it will automatically initialise the project
+terragrunt apply 
 # output: 
 # response = {
 #   "external-module-response" = "EXTENRAL-MODULE: hello, development"
@@ -18,8 +18,8 @@ terraform apply
 
 ```bash
 cd prod
-terraform init
-terraform apply
+# You only need to do terragrunt apply as it will automatically initialise the project
+terragrunt apply 
 # output: 
 # response = {
 #   "external-module-response" = "EXTENRAL-MODULE: hello, production"
