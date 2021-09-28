@@ -20,6 +20,13 @@ git checkout tags/terragrunt -b master
 ## Usage
 
 ```bash
+# development
+cd environments/dev
+terraform init
+terraform apply
+
+# development
+cd environments/prod
 terraform init
 terraform apply
 ```
