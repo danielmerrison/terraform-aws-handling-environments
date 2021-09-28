@@ -1,15 +1,21 @@
 # handling-environments
 ## Overview
 
-Project demonstarting techniques fo r handling multiple environments in Terraform.
+Project demonstrating techniques for handling multiple environments in Terraform.
 
-The repository has 3 branch
+The repository has 3 tags
 
-branch | description
+tags | description
 --- | ---
-main | Standard Terraform configuration with no provision for deploying the code to multiple environments
-modules | Terraform native approach to handling the deployoment of standard terraform to multipl environments
+single | Standard Terraform configuration with no provision for deploying the code to multiple environments
+modules | Terraform native approach to handling the deployoment of standard terraform to multiple environments
 terragrunt | Use terragrunt deploy the same terraform to multiple environments.
+
+```bash
+git checkout tags/single -b master
+git checkout tags/modules -b master
+git checkout tags/terragrunt -b master
+```
 
 ## Usage
 
